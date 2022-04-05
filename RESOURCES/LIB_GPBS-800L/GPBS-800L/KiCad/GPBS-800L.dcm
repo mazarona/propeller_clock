@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GPBS-800L
+D Pushbutton Switches DPDT Latching ON-ON
+K
+F http://switches-connectors-custom.cwind.com/Asset/GPBS800LR1.pdf
+$ENDCMP
+#
+#End Doc Library

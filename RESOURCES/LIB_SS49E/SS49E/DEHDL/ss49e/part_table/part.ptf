@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SS49E'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Honeywell Sensing and Productivity Solutions", "SS49E" (!) = "", "SS49E", "Other", "", "", "", "", "SENSOR LINEAR ANALOG RADIAL", "http://sensing.honeywell.com/index.php?ci_id=50359", "3 mm"
+END_PART
+
+END.

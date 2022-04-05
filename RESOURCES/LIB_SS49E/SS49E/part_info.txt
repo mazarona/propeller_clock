@@ -1,0 +1,9 @@
+Manufacturer=Honeywell Sensing and Productivity Solutions
+PartNumber=SS49E
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2019-03-13 18:02:08
+Downloaded=2022-03-23 19:22:39
+3D=Y

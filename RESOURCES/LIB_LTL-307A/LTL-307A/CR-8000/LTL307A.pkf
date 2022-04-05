@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LTL307A"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LTL307A")
+        (spec "default")
+    )
+)

@@ -1,0 +1,18 @@
+.TB002-500-02BE :1 ;Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount
+TB00250002BE
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN TB002-500-02BE
+~!Manufacturer_Name (CUI Inc.)
+~!Manufacturer_Part_Number (TB002-500-02BE)
+~!Mouser Part Number (490-TB002-500-02BE)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D)
+~!Arrow Part Number (TB002-500-02BE)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tb002-500-02be/cui-devices?region=nac)
+~!Link Datasheet (https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf)
+~!Height (10.4mm)
+~!3D_Model (TB002-500-02BE)
+TB002-500-02BE
+1.1!U 2.1!U 

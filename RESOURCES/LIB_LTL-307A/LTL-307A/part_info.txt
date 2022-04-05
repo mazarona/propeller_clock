@@ -1,0 +1,9 @@
+Manufacturer=Lite-On
+PartNumber=LTL-307A
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=2.4
+Released=2020-01-03 20:06:40
+Downloaded=2022-03-24 05:32:24
+3D=N

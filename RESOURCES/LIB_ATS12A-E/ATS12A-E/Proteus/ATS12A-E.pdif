@@ -1,0 +1,117 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ATS12A-E"
+   (description "Crystals 12MHz 20pF 30ppm -40C 85C")
+   (family "OSC")
+   (package "ATS12AE")
+   (attribute "Datasheet Link" "https://www.ctscorp.com/wp-content/uploads/ATS-ATSSM.pdf")
+   (attribute "Geometry.Height" "3.68mm")
+   (attribute "Manufacturer_Name" "CTS")
+   (attribute "Manufacturer_Part_Number" "ATS12A-E")
+   (attribute "Mouser Part Number" "774-ATS12A-E")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/ATS12A-E?qs=tjlMjqRIEYTbFQBfiYcOog%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "ATS12A-E")
+    (pin "CRYSTAL_1" 1 PS)
+    (pin "CRYSTAL_2" 2 PS)
+   )
+  )
+  (symbol "ATS12A-E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ATS12AE"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.985 3.25)
+      (pt 8.865 3.25)
+      (pt 8.865 -3.25)
+      (pt -3.985 -3.25)
+      (pt -3.985 3.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.44 -2.25)
+      (pt -0.735 -2.25)
+      (arc (pt -0.735 -2.250) (pt -2.985 -2.250) (pt 1.515 2.250) (start -180.0) (sweep -90.0))
+      (pt -0.735 2.25)
+      (pt 5.615 2.25)
+      (arc (pt 5.615 2.250) (pt 3.365 -2.250) (pt 7.865 2.250) (start -180.0) (sweep 90.0))
+      (pt 5.615 -2.25)
+      (pt 2.44 -2.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 2.44 -2.25)
+      (pt -0.735 -2.25)
+      (arc (pt -0.735 -2.250) (pt -2.985 -2.250) (pt 1.515 2.250) (start -180.0) (sweep -90.0))
+      (pt -0.735 2.25)
+      (pt 5.615 2.25)
+      (arc (pt 5.615 2.250) (pt 3.365 -2.250) (pt 7.865 2.250) (start -180.0) (sweep 90.0))
+      (pt 5.615 -2.25)
+      (pt 2.44 -2.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.6 0)
+      (arc (pt -3.600 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep 180.0))
+      (pt -3.5 0)
+      (arc (pt -3.500 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep .0))
+      (pt -3.6 0)
+      (arc (pt -3.600 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep 180.0))
+      (pt -3.5 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 4.880 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.63)
+    (plated true)
+    (pad (layer TCOP) (round 1.155))
+    (pad (layer INNER) (round 1.155))
+    (pad (layer BCOP) (round 1.155))
+   )
+   (model "ATS12A-E.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

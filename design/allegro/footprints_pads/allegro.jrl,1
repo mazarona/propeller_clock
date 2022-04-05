@@ -1,0 +1,27 @@
+\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sat Mar 26 00:05:27 2022
+\t (00:00:00)         Host=DESKTOP-FOBRSGB User=Mazarona Pid=18468 CPUs=16
+\t (00:00:00) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe E:\Projects\Embedded system\clock\design\allegro\footprints_pads\RES_RC14_STP.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged RES_RC14_STP
+\d (00:00:03) Design opened: E:/Projects/Embedded system/clock/design/allegro/footprints_pads/RES_RC14_STP.dra
+\i (00:00:03) trapsize 18810
+\i (00:00:03) trapsize 19645
+\i (00:00:03) trapsize 18810
+\i (00:00:03) trapsize 18810
+\i (00:00:03) trapsize 11886
+\i (00:00:04) generaledit 
+\i (00:41:25) pick grid 2757.509 -67.861
+\t (00:41:25) last pick:  2800.000 -100.000
+\i (00:41:26) pick grid 2622.005 -17.939
+\t (00:41:26) last pick:  2600.000 0.000
+\i (00:41:26) prepopup 2622.005 -17.939
+\i (00:41:27) pop dyn_option_select '@:@Show element' 
+\i (00:41:27) show element 
+\i (00:41:27) generaledit 
+\i (00:41:35) setwindow text
+\i (00:41:35) close
+\i (06:46:59) exit 
+\t (06:46:59)     Journal end - Sat Mar 26 06:52:26 2022

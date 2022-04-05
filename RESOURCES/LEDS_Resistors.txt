@@ -1,0 +1,4 @@
+NOTE: Anthing below 20mA is usually ok.
+NOTE: USE 220ohms for good visibility.
+Blue -> -3.4v
+Red -> -2v

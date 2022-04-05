@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SS49E.dra                                     )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Wed Mar 23 22:49:14 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/Projects/Embedded system/clock/design/allegro/footprints_pads
+    Name      = ss49e.psm
+    User      = Mazarona
+    Machine   = DESKTOP-FOBRSGB
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

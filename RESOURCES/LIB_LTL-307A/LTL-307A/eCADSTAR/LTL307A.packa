@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LTL-307A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-27-17:26:18)
+    (mountForm default
+        (footprintRef "LTL307A")
+        (spec "System")
+    )
+)

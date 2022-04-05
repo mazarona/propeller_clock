@@ -1,0 +1,18 @@
+.GPBS-800L :1 ;Pushbutton Switches DPDT Latching ON-ON
+GPBS800L
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN GPBS-800L
+~!Manufacturer_Name (CW Industries)
+~!Manufacturer_Part_Number (GPBS-800L)
+~!Mouser Part Number (629-GPBS-800L)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CW-Industries/GPBS-800L?qs=sajaCoHCXPRO4feefwykvw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://switches-connectors-custom.cwind.com/Asset/GPBS800LR1.pdf)
+~!Height (13mm)
+~!3D_Model (GPBS-800L)
+GPBS-800L
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

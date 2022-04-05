@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SS49E"
+   (description "SENSOR LINEAR ANALOG RADIAL")
+   (family "ANA")
+   (package "SS49E")
+   (attribute "Datasheet Link" "http://sensing.honeywell.com/index.php?ci_id=50359")
+   (attribute "Geometry.Height" "3mm")
+   (attribute "Manufacturer_Name" "Honeywell Sensing and Productivity Solutions")
+   (attribute "Manufacturer_Part_Number" "SS49E")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "SS49E")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+    (pin "0" 3 PS)
+   )
+  )
+  (symbol "SS49E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SS49E"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.75 0.7)
+      (pt 3.35 0.7)
+      (pt 3.35 -0.9)
+      (pt -0.75 -0.9)
+      (pt -0.75 0.7))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 1.7)
+      (pt 4.35 1.7)
+      (pt 4.35 -1.9)
+      (pt -1.75 -1.9)
+      (pt -1.75 1.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.4 0.7)
+      (pt -0.75 0.7)
+      (pt -0.75 -0.9)
+      (pt 3.35 -0.9)
+      (pt 3.35 0.7)
+      (pt 3 0.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.1 -1.4)
+      (arc (pt -0.100 -1.400) (pt -0.100 -1.500) (pt 0.100 -1.300) (start 180.0) (sweep 180.0))
+      (pt 0.1 -1.4)
+      (arc (pt 0.100 -1.400) (pt -0.100 -1.500) (pt 0.100 -1.300) (start 180.0) (sweep .0))
+      (pt -0.1 -1.4))))
+   (leg 1 (pt 0.000 0.010) (padstack 0))
+   (leg 2 (pt 1.300 0.010) (padstack 0))
+   (leg 3 (pt 2.600 0.010) (padstack 0))
+   (padstack 0
+    (hole 0.68)
+    (plated true)
+    (pad (layer TCOP) (round 1.150))
+    (pad (layer INNER) (round 1.150))
+    (pad (layer BCOP) (round 1.150))
+   )
+   (model "SS49E.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

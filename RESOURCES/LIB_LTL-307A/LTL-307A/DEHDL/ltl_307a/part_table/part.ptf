@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTL_307A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Lite-On", "LTL-307A" (!) = "", "LTL307A", "Other", "859-LTL-307A", "https://www.mouser.co.uk/ProductDetail/Lite-On/LTL-307A?qs=LJdOdOP975zBx2%2Fz79Kxmg%3D%3D", "LTL-307A", "https://www.arrow.com/en/products/ltl-307a/lite-on-technology", "Standard LEDs - Through Hole Amber Diffused", "https://www.mouser.com/datasheet/2/239/lite-on_lite-s-a0003819896-1-1678558.pdf"
+END_PART
+
+END.

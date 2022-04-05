@@ -1,0 +1,241 @@
+\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Mar 25 23:50:36 2022
+\t (00:00:00)         Host=DESKTOP-FOBRSGB User=Mazarona Pid=7844 CPUs=16
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged propellerPCB
+\d (00:00:03) Design opened: E:/Projects/Embedded system/clock/design/allegro/propellerPCB.brd
+\i (00:00:03) trapsize 119
+\i (00:00:03) trapsize 124
+\i (00:00:03) trapsize 119
+\i (00:00:03) trapsize 119
+\i (00:00:03) trapsize 75
+\i (00:00:04) generaledit 
+\i (00:00:11) pick grid 11555.8 10201.2
+\t (00:00:11) last pick:  11600.0 10200.0
+\i (00:00:13) place manual 
+\i (00:00:13) setwindow form.plc_manual
+\i (00:00:13) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:14) FORM plc_manual advanced_settings  
+\i (00:00:15) FORM plc_manual library YES 
+\i (00:00:15) FORM plc_manual placement_list  
+\i (00:00:16) FORM plc_manual categories Package symbols 
+\i (00:00:18) FORM plc_manual alpha_filter RES_RC14_STP 
+\i (00:00:21) FORM plc_manual tree  RES_RC14_STP 'Package symbols' 
+\w (00:00:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:21) FORM plc_manual tree 'MULTISEL YES' RES_RC14_STP 'Package symbols' 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) pick grid 10648.5 10601.7
+\t (00:00:22) last pick:  10600.0 10600.0
+\i (00:00:23) prepopup 10831.5 10331.7
+\i (00:00:23) done 
+\i (00:00:23) generaledit 
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 11522.8 10504.2
+\i (00:00:24) trapsize 150
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 11525.9 10498.2
+\i (00:00:24) trapsize 300
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 11525.9 10498.2
+\i (00:00:24) trapsize 600
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 12149.9 10342.2
+\i (00:00:24) trapsize 300
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 12173.9 10336.2
+\i (00:00:24) trapsize 150
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 12179.9 10336.2
+\i (00:00:25) trapsize 75
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 12239.9 10330.2
+\i (00:00:25) trapsize 37
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 12173.2 10367.7
+\i (00:00:25) trapsize 75
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 12120.7 10382.8
+\i (00:00:25) trapsize 150
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 12051.8 10406.8
+\i (00:00:25) trapsize 300
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 13329.7 10406.7
+\i (00:00:25) trapsize 150
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 13596.7 10397.8
+\i (00:00:25) trapsize 75
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 13427.2 10682.7
+\i (00:00:26) trapsize 37
+\i (00:00:27) pick grid 13211.3 10595.8
+\t (00:00:27) last pick:  13200.0 10600.0
+\i (00:00:29) pick grid 13210.5 10599.5
+\t (00:00:29) last pick:  13200.0 10600.0
+\i (00:00:32) prepopup 13224.8 10605.5
+\i (00:00:43) drag_start grid 13315.5 10706.0
+\i (00:00:44) drag_stop 13160.3 10471.3
+\i (00:00:45) prepopup 13223.3 10591.3
+\i (00:00:47) pick grid 13329.0 10619.8
+\t (00:00:47) last pick:  13300.0 10600.0
+\i (00:00:49) pick grid 13215.0 10574.8
+\t (00:00:49) last pick:  13200.0 10600.0
+\i (00:00:53) prepopup 13217.3 10580.8
+\i (00:01:05) pop dyn_option_select '@:@Show element' 
+\i (00:01:05) show element 
+\i (00:01:05) generaledit 
+\i (00:02:25) setwindow text
+\i (00:02:25) close
+\i (00:02:26) prmed 
+\i (00:02:26) FORM prmedit design 
+\i (00:02:26) setwindow form.prmedit
+\i (00:02:26) FORM prmedit design  
+\i (00:02:26) setwindow pcb
+\i (00:02:26) trapsize 37
+\i (00:02:29) setwindow form.prmedit
+\i (00:02:29) FORM prmedit units Millimeter 
+   (00:02:29) Accuracy or unit changes can cause design round-off issues. DRCs and physical changes should be checked.
+\i (00:02:36) fillin confirm
+\e (00:02:36) Change may cause round-off; run dbcheck.
+\i (00:02:38) FORM prmedit cancel  
+\i (00:02:38) setwindow pcb
+\i (00:02:38) generaledit 
+\i (00:02:41) pick grid 13218.0 10595.0
+\t (00:02:41) last pick:  13200.0 10600.0
+\i (00:02:42) prmed 
+\i (00:02:42) FORM prmedit design 
+\i (00:02:42) trapsize 37
+\i (00:02:46) setwindow form.prmedit
+\i (00:02:46) FORM prmedit units Millimeter 
+   (00:02:46) Accuracy or unit changes can cause design round-off issues. DRCs and physical changes should be checked.
+\i (00:02:47) fillin confirm
+\e (00:02:47) Change may cause round-off; run dbcheck.
+\i (00:02:49) FORM prmedit apply  
+\w (00:02:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:49) setwindow pcb
+\i (00:02:49) trapsize 952
+\t (00:02:49) Performing DRC...
+\t (00:02:49) Multithreaded DRC update (16 threads).
+\t (00:02:50) No DRC errors detected.
+\i (00:02:50) setwindow form.prmedit
+\i (00:02:50) FORM prmedit done  
+\i (00:02:50) setwindow pcb
+\i (00:02:50) generaledit 
+\i (00:02:54) prepopup 335.3762 268.8464
+\i (00:02:56) pop dyn_option_select '@:@Show element' 
+\i (00:02:56) show element 
+\i (00:02:56) generaledit 
+\i (00:03:16) setwindow text
+\i (00:03:16) close
+\i (00:03:17) prmed 
+\i (00:03:17) FORM prmedit design 
+\i (00:03:17) trapsize 952
+\i (00:03:18) setwindow form.prmedit
+\i (00:03:18) FORM prmedit units Mils 
+   (00:03:18) Accuracy or unit changes can cause design round-off issues. DRCs and physical changes should be checked.
+\i (00:03:19) fillin confirm
+\e (00:03:19) Change may cause round-off; run dbcheck.
+\i (00:03:20) FORM prmedit apply  
+\i (00:03:29) fillin no 
+\i (00:03:33) FORM prmedit done  
+\i (00:03:33) setwindow pcb
+\i (00:03:33) generaledit 
+\i (00:03:35) prmed 
+\i (00:03:35) FORM prmedit design 
+\i (00:03:35) trapsize 952
+\i (00:03:36) setwindow form.prmedit
+\i (00:03:36) FORM prmedit units Mils 
+   (00:03:36) Accuracy or unit changes can cause design round-off issues. DRCs and physical changes should be checked.
+\i (00:03:37) fillin confirm
+\e (00:03:37) Change may cause round-off; run dbcheck.
+\i (00:03:39) FORM prmedit apply  
+\i (00:03:40) fillin yes 
+\w (00:03:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:03:40) setwindow pcb
+\i (00:03:40) trapsize 3749
+\t (00:03:40) Performing DRC...
+\t (00:03:40) Multithreaded DRC update (16 threads).
+\t (00:03:41) No DRC errors detected.
+\i (00:03:42) setwindow form.prmedit
+\i (00:03:42) FORM prmedit done  
+\i (00:03:42) setwindow pcb
+\i (00:03:42) generaledit 
+\i (00:03:44) pick grid 13002.081 10302.564
+\t (00:03:44) last pick:  13000.000 10300.000
+\i (00:03:45) pick grid 13214.288 10587.505
+\t (00:03:45) last pick:  13200.000 10600.000
+\i (00:03:46) prepopup 13215.787 10584.506
+\i (00:03:47) pop dyn_option_select '@:@Show element' 
+\i (00:03:47) show element 
+\i (00:03:47) generaledit 
+\i (00:03:50) setwindow text
+\i (00:03:50) close
+\i (00:03:50) zoom out 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom out 13351.510 10622.748
+\i (00:03:50) trapsize 7498
+\i (00:03:50) zoom out 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom out 13351.509 10622.749
+\i (00:03:50) trapsize 14997
+\i (00:03:50) zoom out 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom out 13192.541 10598.753
+\i (00:03:50) trapsize 29994
+\i (00:03:50) zoom out 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom out 13090.562 10598.754
+\i (00:03:50) trapsize 59988
+\i (00:03:50) zoom out 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom out 13054.569 10598.754
+\i (00:03:50) trapsize 119887
+\i (00:03:50) zoom out 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom out 20524.683 12444.288
+\i (00:03:50) trapsize 119887
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 17863.188 13091.679
+\i (00:03:51) trapsize 59944
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 14142.454 13139.634
+\i (00:03:51) trapsize 29972
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 13303.244 13043.724
+\i (00:03:51) trapsize 14986
+\i (00:03:51) zoom out 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom out 13495.064 13037.730
+\i (00:03:51) trapsize 29972
+\i (00:03:51) zoom out 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom out 13602.962 13043.725
+\i (00:03:51) trapsize 59944
+\i (00:03:51) zoom out 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom out 13638.927 13067.703
+\i (00:03:51) trapsize 119887
+\i (00:03:52) exit 
+\e (00:03:52) Do you want to save the changes you made to propellerPCB.brd?
+\i (00:03:52) fillin no 
+\t (00:03:53)     Journal end - Fri Mar 25 23:54:28 2022

@@ -1,0 +1,17 @@
+.LTL-307A :1 ;Standard LEDs - Through Hole Amber Diffused
+LTL307A
+*STM LED
+*NGS
+*PLB 1="A" 2="K"
+*MXP 2
+*DFN LTL-307A
+~!Manufacturer_Name (Lite-On)
+~!Manufacturer_Part_Number (LTL-307A)
+~!Mouser Part Number (859-LTL-307A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Lite-On/LTL-307A?qs=LJdOdOP975zBx2%2Fz79Kxmg%3D%3D)
+~!Arrow Part Number (LTL-307A)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ltl-307a/lite-on-technology)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/239/lite-on_lite-s-a0003819896-1-1678558.pdf)
+~!Height (-)
+LTL-307A
+1.1!U 2.1!U 

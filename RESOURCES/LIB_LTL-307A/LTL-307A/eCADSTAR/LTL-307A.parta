@@ -1,0 +1,67 @@
+(Japanese_coding: sjis)
+(function "ECS_9329735"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-03-20:06:40)
+    (utime 2020-02-27-17:26:18)
+    (interface
+        (port "1" (symbPinId 2) (portType INOUT))
+        (port "2" (symbPinId 1) (portType INOUT))
+    )
+    (property "symbolName" "LTL-307A")
+)
+
+
+(pinAssign "ECS_9329735"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-03-20:06:40)
+    (utime 2020-02-27-17:26:18)
+    (interface
+        (port "1" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "K") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_9329735")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "LTL-307A")
+)
+
+
+(part "LTL-307A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-03-20:06:40)
+    (utime 2020-02-27-17:26:18)
+    (packageRef "LTL-307A")
+    (pinAssignRef "ECS_9329735")
+    (interface
+        (port "1" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "K") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "Standard LEDs - Through Hole Amber Diffused")
+    (property "Manufacturer_Name" "Lite-On")
+    (property "Manufacturer_Part_Number" "LTL-307A")
+    (property "Mouser_Part_Number" "859-LTL-307A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTL-307A?qs=LJdOdOP975zBx2%2Fz79Kxmg%3D%3D")
+    (property "Arrow_Part_Number" "LTL-307A")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/ltl-307a/lite-on-technology")
+    (property "Datasheet_Link" "https://www.mouser.com/datasheet/2/239/lite-on_lite-s-a0003819896-1-1678558.pdf")
+)
+
+

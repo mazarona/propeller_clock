@@ -1,0 +1,67 @@
+(Japanese_coding: sjis)
+(function "ECS_14771650"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-08-18-06:19:59)
+    (utime 2021-08-18-06:19:59)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "RC14JT13K0")
+)
+
+
+(pinAssign "ECS_14771650"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-08-18-06:19:59)
+    (utime 2021-08-18-06:19:59)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_14771650")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "RC14JT13K0")
+)
+
+
+(part "RC14JT13K0"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-08-18-06:19:59)
+    (utime 2021-08-18-06:19:59)
+    (packageRef "RC14JT13K0")
+    (pinAssignRef "ECS_14771650")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "RES, CC, 1/4W, 13 Kohm, 5%")
+    (property "Manufacturer_Name" "Stackpole Electronics Inc.")
+    (property "Manufacturer_Part_Number" "RC14JT13K0")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.seielect.com/catalog/sei-rc.pdf")
+)
+
+

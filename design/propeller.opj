@@ -1,0 +1,299 @@
+(ExpressProject "propeller"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/26/22]")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\schematicpartslib\myparts.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\propeller.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\PROPELLER.DRC")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Layout"
+    (File ".\allegro\propellerpcb.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\propellerpcb.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0")))
+  (Folder "Outputs"
+    (File ".\propeller.drc"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (ATS12A-E
+      (FullPartName "ATS12A-E.Normal")
+      (LibraryName
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (DeviceIndex "0"))
+    (GPBS-800L
+      (FullPartName "GPBS-800L.Normal")
+      (LibraryName
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (DeviceIndex "0"))
+    (SS49E
+      (FullPartName "SS49E.Normal")
+      (LibraryName
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (DeviceIndex "0"))
+    (L7905CV
+      (FullPartName "L7905CV.Normal")
+      (LibraryName
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (DeviceIndex "0"))
+    (FH301/FWB
+      (FullPartName "FH301/FWB.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\FWBELL.OLB")
+      (DeviceIndex "0"))
+    (BH700/FWB
+      (FullPartName "BH700/FWB.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\FWBELL.OLB")
+      (DeviceIndex "0"))
+    (BH200MAX/FWB
+      (FullPartName "BH200MAX/FWB.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\FWBELL.OLB")
+      (DeviceIndex "0"))
+    (BH200/FWB
+      (FullPartName "BH200/FWB.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\FWBELL.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LA_3366-TYP
+      (FullPartName "LA_3366-TYP.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\OSRAM_3MMRADIAL.OLB")
+      (DeviceIndex "0"))
+    (hlmp-1550
+      (FullPartName "hlmp-1550.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\OPTO.OLB")
+      (DeviceIndex "0"))
+    (hlmp-1350
+      (FullPartName "hlmp-1350.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\OPTO.OLB")
+      (DeviceIndex "0"))
+    (atmega32
+      (FullPartName "atmega32.Normal")
+      (LibraryName
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (DeviceIndex "0"))
+    (zifsocket
+      (FullPartName "zifsocket.Normal")
+      (LibraryName
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 20x2"
+      (FullPartName "CONN SOCKET 20x2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20X2"
+      (FullPartName "HEADER 20X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20x2/SM"
+      (FullPartName "HEADER 20x2/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20x2/M"
+      (FullPartName "HEADER 20x2/M.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20x3"
+      (FullPartName "HEADER 20x3.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN RCPT 20x2/SM"
+      (FullPartName "CONN RCPT 20x2/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library")
+  (MPSSessionName "Mazarona")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "e:\projects\embedded system\clock\design\propeller.dsn")
+      (Path "Design Resources"
+         "e:\projects\embedded system\clock\design\propeller.dsn" "propellerSCH")
+      (Path "Design Resources"
+         "e:\projects\embedded system\clock\design\propeller.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "e:\projects\embedded system\clock\design\schematicpartslib\myparts.olb")
+      (Path "Layout")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 366 0 799"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1168 24 817")
+        (Scroll "-61 -6")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\PROPELLER.DSN")
+      (Schematic "propellerSCH")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1168 24 817"))
+      (Path
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (Package "LINEAR HALL SENSOR")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1168 24 817"))
+      (Path
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (Package "STANDARD 5MM LED")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1168 24 817"))
+      (Path
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (Package "DPDT SWITCH 6PIN")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1168 24 817"))
+      (Path
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (Package "STANDARD 1/4 WATT TH RESISTOR")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1168 24 817"))
+      (Path
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (Package "VOLTAGE REGULATOR FIXED -5V")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1168 24 817"))
+      (Path
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (Package "CRYSTALS 12MHZ 20PF 30PPM -40C")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1168 24 817"))
+      (Path
+         "E:\PROJECTS\EMBEDDED SYSTEM\CLOCK\DESIGN\SCHEMATICPARTSLIB\MYPARTS.OLB")
+      (Package "ATMEGA32")
+      (PartType "1"))))

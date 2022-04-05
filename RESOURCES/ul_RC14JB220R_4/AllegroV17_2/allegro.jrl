@@ -1,0 +1,66 @@
+\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Mar 25 22:49:54 2022
+\t (00:00:00)         Host=DESKTOP-FOBRSGB User=Mazarona Pid=14484 CPUs=16
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe -s builder.scr.txt
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:00) Starting new design...
+\i (00:00:01) trapsize 116667
+\i (00:00:01) replay builder.scr.txt 
+\i (00:00:01) skill 'load "E:/Projects/Embedded system/clock/RESOURCES/ul_RC14JB220R_4/AllegroV17_2/builder.ile" ' 
+   (00:00:01) t
+\i (00:00:01) skill 'changeWorkingDir "E:/Projects/Embedded system/clock/RESOURCES/ul_RC14JB220R_4/AllegroV17_2" ' 
+   (00:00:01) t
+\i (00:00:01) skill 'LB_createFootprint "E:/Projects/Embedded system/clock/RESOURCES/ul_RC14JB220R_4/AllegroV17_2/RES_RC14_STP.xml" ' 
+\t (00:00:01) Reading Footprint XML
+\t (00:00:01) Creating padstacks
+\t (00:00:01) Starting new design...
+\i (00:00:01) trapsize 1274
+\i (00:00:01) trapsize 1331
+\i (00:00:01) trapsize 1945
+\i (00:00:01) trapsize 1945
+\i (00:00:01) trapsize 194508
+\t (00:00:01) Performing DRC...
+\t (00:00:01) Multithreaded DRC update (16 threads).
+\t (00:00:01) No DRC errors detected.
+\t (00:00:01) Opening Design "RES_RC14_STP.dra"
+\t (00:00:01) Starting new design...
+\i (00:00:01) trapsize 127427
+\i (00:00:01) trapsize 133080
+\i (00:00:01) trapsize 127427
+\i (00:00:01) trapsize 194508
+\i (00:00:01) trapsize 194508
+\i (00:00:01) trapsize 41716
+\t (00:00:01) Creating TextBlocks
+\t (00:00:01) Creating Shapes on Package layers
+   (00:00:01) *WARNING* (axlDBAddProp): ERROR(SPMHDB-272): Property is only allowed on PACKAGE KEEPOUT or PLACE BOUND. ("PACKAGE_HEIGHT_MAX" 94.0)
+\t (00:00:01) Creating Pins
+\t (00:00:01) Creating Vias
+\t (00:00:01) Creating package symbol 'E:/Projects/Embedded system/clock/RESOURCES/ul_RC14JB220R_4/AllegroV17_2/res_rc14_stp.psm'.
+\t (00:00:01) Starting Create symbol...
+\t (00:00:01) Symbol Created
+\i (00:00:01) trapsize 16347
+   (00:00:01) Loading cmds.cxt 
+   (00:00:01) Loading skillExt.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:04) fillin yes 
+\i (00:00:04) trapsize 10330
+\i (00:00:04) trapsize 10615
+\i (00:00:04) trapsize 10330
+\i (00:00:04) trapsize 11886
+\d (00:00:04) Design opened: E:/Projects/Embedded system/clock/RESOURCES/ul_RC14JB220R_4/AllegroV17_2/RES_RC14_STP.dra
+\t (00:00:04) Symbol Saved
+   (00:00:04) t
+\i (00:00:04) scriptmode +i +n 
+\i (00:00:04) step pkg map 
+\i (00:00:04) setwindow form.pkgmap3d 
+\i (00:00:04) FORM pkgmap3d stplist RES_RC14_STP.step 
+\i (00:00:05) FORM pkgmap3d rotation_x 0 
+\i (00:00:05) FORM pkgmap3d save_current 
+\i (00:00:05) FORM pkgmap3d done 
+\i (00:00:05) setwindow pcb 
+\i (00:00:05) save 
+\i (00:00:05) fillin yes 
+\t (00:00:05) Symbol 'res_rc14_stp.psm' created.
+\i (00:00:05) exit 
+\t (00:00:05)     Journal end - Fri Mar 25 22:49:59 2022

@@ -1,0 +1,9 @@
+Manufacturer=CW Industries
+PartNumber=GPBS-800L
+PartCategory=Switch
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2018-02-24 22:15:01
+Downloaded=2022-03-23 23:48:39
+3D=Y

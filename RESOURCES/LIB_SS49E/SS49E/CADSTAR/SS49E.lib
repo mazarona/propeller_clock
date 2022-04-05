@@ -1,0 +1,18 @@
+.SS49E :1 ;SENSOR LINEAR ANALOG RADIAL
+SS49E
+*STM IC
+*NGS
+*PLB 1="+" 2="-" 3="0"
+*MXP 3
+*DFN SS49E
+~!Manufacturer_Name (Honeywell Sensing and Productivity Solutions)
+~!Manufacturer_Part_Number (SS49E)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://sensing.honeywell.com/index.php?ci_id=50359)
+~!Height (3mm)
+~!3D_Model (SS49E)
+SS49E
+1.1!U 2.1!U 3.1!U 

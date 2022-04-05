@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SS49E"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SS49E")
+        (spec "default")
+    )
+)

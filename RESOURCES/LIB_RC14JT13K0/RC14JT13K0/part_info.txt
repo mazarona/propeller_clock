@@ -1,0 +1,9 @@
+Manufacturer=Stackpole Electronics Inc.
+PartNumber=RC14JT13K0
+PartCategory=Resistor
+PackageCategory=Resistors, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=2.1
+Released=2021-08-18 06:19:59
+Downloaded=2022-03-25 01:18:52
+3D=Y

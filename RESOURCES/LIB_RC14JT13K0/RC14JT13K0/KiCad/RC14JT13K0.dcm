@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RC14JT13K0
+D RES, CC, 1/4W, 13 Kohm, 5%
+K
+F https://www.seielect.com/catalog/sei-rc.pdf
+$ENDCMP
+#
+#End Doc Library

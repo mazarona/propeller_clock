@@ -1,0 +1,9 @@
+Manufacturer=CUI Inc.
+PartNumber=TB002-500-02BE
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.7
+Released=2020-09-08 12:04:16
+Downloaded=2022-03-24 17:39:48
+3D=Y
